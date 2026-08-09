@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0813"/>
+      <stop offset="100%" stop-color="#0b0e1a"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFB020"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <clipPath id="clipBars">
+      <rect x="640" y="0" width="0" height="14" rx="7" id="bar1clip"/>
+    </clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="418" rx="16" fill="url(#cardBg)" stroke="#8B5CF6" stroke-opacity="0.25"/>
+
+  <!-- terminal chrome -->
+  <rect x="1" y="1" width="1198" height="40" rx="16" fill="#100c1c"/>
+  <rect x="1" y="25" width="1198" height="16" fill="#100c1c"/>
+  <circle cx="34" cy="21" r="6" fill="#FF5F56"/>
+  <circle cx="56" cy="21" r="6" fill="#FFBD2E"/>
+  <circle cx="78" cy="21" r="6" fill="#27C93F"/>
+  <text x="600" y="26" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="13" fill="#6f6f85">sudeep@dev ~ whoami.sh</text>
+
+  <!-- left: terminal text -->
+  <g font-family="'JetBrains Mono', monospace" font-size="16" fill="#d8d8ea">
+    <text x="40" y="90"><tspan fill="#22D3EE">$</tspan> <tspan fill="#FFB020">cat</tspan> about_me.txt</text>
+    <text x="40" y="126" fill="#c9c9de" font-size="15">Full-stack developer building robust, scalable apps</text>
+    <text x="40" y="150" fill="#c9c9de" font-size="15">with React, Node.js &amp; SQL — obsessed with clean</text>
+    <text x="40" y="174" fill="#c9c9de" font-size="15">code and performance. Growing into AI integration:</text>
+    <text x="40" y="198" fill="#c9c9de" font-size="15">prompt engineering + deep learning on real datasets.</text>
+
+    <text x="40" y="238"><tspan fill="#22D3EE">$</tspan> <tspan fill="#FFB020">cat</tspan> education.txt</text>
+    <text x="40" y="270" fill="#c9c9de" font-size="15">B.E. Computer Science &amp; Engineering</text>
+    <text x="40" y="294" fill="#c9c9de" font-size="15">Vivekananda College of Engg &amp; Tech · 2023 – 2027</text>
+    <text x="40" y="318" fill="#8B5CF6" font-size="15" font-weight="700">CGPA 9.44 / 10 (through 6th semester)</text>
+
+    <text x="40" y="358"><tspan fill="#22D3EE">$</tspan> <tspan fill="#FFB020">echo</tspan> $CURRENT_ROLE</text>
+    <text x="40" y="390" fill="#c9c9de" font-size="15">Web Development Intern @ Wheeltrix — since Jun 2026</text>
+  </g>
+
+  <!-- divider -->
+  <line x1="620" y1="60" x2="620" y2="400" stroke="#8B5CF6" stroke-opacity="0.18" stroke-width="1"/>
+
+  <!-- right: skill bars -->
+  <g font-family="'JetBrains Mono', monospace">
+    <text x="655" y="86" font-size="14" letter-spacing="2" fill="#FFB020">CORE STRENGTH</text>
+
+    <g font-size="14" fill="#d8d8ea">
+      <text x="655" y="122">React / Frontend Engineering</text>
+      <rect x="655" y="132" width="500" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.06"/>
+      <rect x="655" y="132" width="465" height="9" rx="4.5" fill="url(#barGrad)"/>
+
+      <text x="655" y="168">Node.js / Backend &amp; REST APIs</text>
+      <rect x="655" y="178" width="500" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.06"/>
+      <rect x="655" y="178" width="440" height="9" rx="4.5" fill="url(#barGrad)"/>
+
+      <text x="655" y="214">SQL / MySQL &amp; MongoDB</text>
+      <rect x="655" y="224" width="500" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.06"/>
+      <rect x="655" y="224" width="415" height="9" rx="4.5" fill="url(#barGrad)"/>
+
+      <text x="655" y="260">Python / TensorFlow &amp; Keras</text>
+      <rect x="655" y="270" width="500" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.06"/>
+      <rect x="655" y="270" width="350" height="9" rx="4.5" fill="url(#barGrad)"/>
+
+      <text x="655" y="306">Prompt Engineering / LLM Integration</text>
+      <rect x="655" y="316" width="500" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.06"/>
+      <rect x="655" y="316" width="375" height="9" rx="4.5" fill="url(#barGrad)"/>
+    </g>
+
+    <text x="655" y="360" font-size="14" fill="#6f6f85">🏆 1st Place — Swift Shift &amp; Silent Coding (2025)</text>
+    <text x="655" y="386" font-size="14" fill="#6f6f85">☁️ IBM SkillsBuild · NPTEL · Infosys Springboard certified</text>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/><stop offset="50%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#FFB020"/>
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="35" x2="440" y2="35" stroke="url(#g1)" stroke-width="1.5" opacity="0.6"/>
+  <line x1="760" y1="35" x2="1200" y2="35" stroke="url(#g1)" stroke-width="1.5" opacity="0.6"/>
+  <text x="600" y="43" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="26" font-weight="800" fill="url(#g1)">🚀  FEATURED PROJECTS</text>
+</svg>
