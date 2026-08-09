@@ -52,7 +52,11 @@
 <img src="https://raw.githubusercontent.com/sudeep-patali/sudeep-patali/main/assets/section-tech.svg" width="100%" alt="Tech Arsenal section header"/>
 <br/><br/>
 
-<details open>
+<img src="https://raw.githubusercontent.com/sudeep-patali/sudeep-patali/main/assets/terminal-code.svg" width="92%" alt="Animated terminal window typing out Sudeep P's full tech stack as code"/>
+
+<br/><br/>
+
+<details>
 <summary><b>🗣 Languages</b></summary><br/>
 
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=0a0813" alt="Java"/>
@@ -124,7 +128,7 @@
 
 <img src="https://img.shields.io/badge/React-8B5CF6?style=flat-square&logo=react&logoColor=white" alt="React"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/> <img src="https://img.shields.io/badge/Groq_Llama_3.1-22D3EE?style=flat-square&logo=meta&logoColor=black" alt="Groq Llama 3.1"/>
 
-<a href="https://github.com/sudeep-patali/AIVA"><img src="https://img.shields.io/github/stars/sudeep-patali/AIVA?style=flat-square&color=FFB020&labelColor=0a0813" alt="AIVA stars"/></a> <a href="https://github.com/sudeep-patali/AIVA"><img src="https://img.shields.io/github/last-commit/sudeep-patali/AIVA?style=flat-square&color=8B5CF6&labelColor=0a0813" alt="AIVA last commit"/></a>
+<a href="https://github.com/sudeep-patali/AIVA"><img src="https://img.shields.io/badge/GitHub-View_Code-8B5CF6?style=flat-square&logo=github&logoColor=white&labelColor=0a0813" alt="View AIVA on GitHub"/></a> <img src="https://img.shields.io/badge/Status-Active-22D3EE?style=flat-square&labelColor=0a0813" alt="Active project"/>
 
 </td>
 <td width="50%" valign="top">
@@ -134,7 +138,7 @@
 
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/React-8B5CF6?style=flat-square&logo=react&logoColor=white" alt="React"/> <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white" alt="shadcn/ui"/> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
 
-<a href="https://github.com/sudeep-patali/NodeX"><img src="https://img.shields.io/github/stars/sudeep-patali/NodeX?style=flat-square&color=FFB020&labelColor=0a0813" alt="NodeX stars"/></a> <a href="https://github.com/sudeep-patali/NodeX"><img src="https://img.shields.io/github/last-commit/sudeep-patali/NodeX?style=flat-square&color=8B5CF6&labelColor=0a0813" alt="NodeX last commit"/></a>
+<a href="https://github.com/sudeep-patali/NodeX"><img src="https://img.shields.io/badge/GitHub-View_Code-8B5CF6?style=flat-square&logo=github&logoColor=white&labelColor=0a0813" alt="View NodeX on GitHub"/></a> <img src="https://img.shields.io/badge/Status-Shipped-34D399?style=flat-square&labelColor=0a0813" alt="Shipped project"/>
 
 </td>
 </tr>
@@ -146,7 +150,7 @@
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow"/> <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras"/>
 
-<a href="https://github.com/sudeep-patali/CRC-ID"><img src="https://img.shields.io/github/stars/sudeep-patali/CRC-ID?style=flat-square&color=FFB020&labelColor=0a0813" alt="CRC-ID stars"/></a> <a href="https://github.com/sudeep-patali/CRC-ID"><img src="https://img.shields.io/github/last-commit/sudeep-patali/CRC-ID?style=flat-square&color=8B5CF6&labelColor=0a0813" alt="CRC-ID last commit"/></a>
+<a href="https://github.com/sudeep-patali/CRC-ID"><img src="https://img.shields.io/badge/GitHub-View_Code-8B5CF6?style=flat-square&logo=github&logoColor=white&labelColor=0a0813" alt="View CRC-ID on GitHub"/></a> <img src="https://img.shields.io/badge/Status-In_Progress-FFB020?style=flat-square&labelColor=0a0813" alt="In progress project"/>
 
 </td>
 <td width="50%" valign="top">

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460">
+  <defs>
+    <linearGradient id="tcBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0813"/>
+      <stop offset="100%" stop-color="#0b0e1a"/>
+    </linearGradient>
+    <linearGradient id="tcGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFB020"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="tcOrb1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tcOrb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="458" rx="18" fill="url(#tcBg)" stroke="#8B5CF6" stroke-opacity="0.25"/>
+  <circle cx="1050" cy="90" r="220" fill="url(#tcOrb1)"/>
+  <circle cx="120" cy="400" r="220" fill="url(#tcOrb2)"/>
+
+  <!-- floating particles -->
+  <g fill="#ffffff">
+    <circle cx="140" cy="70" r="1.6" opacity="0.5"><animate attributeName="cy" values="70;56;70" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.7;0.2" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="130" r="1.4" opacity="0.4"><animate attributeName="cy" values="130;110;130" dur="7.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.15;0.6;0.15" dur="7.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1100" cy="380" r="1.8" opacity="0.5"><animate attributeName="cy" values="380;360;380" dur="5.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.7;0.2" dur="5.5s" repeatCount="indefinite"/></circle>
+    <circle cx="60" cy="330" r="1.5" opacity="0.4"><animate attributeName="cy" values="330;312;330" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.15;0.55;0.15" dur="8s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- title bar -->
+  <rect x="1" y="1" width="1198" height="42" rx="18" fill="#100c1c"/>
+  <rect x="1" y="27" width="1198" height="16" fill="#100c1c"/>
+  <circle cx="34" cy="22" r="6" fill="#FF5F56"/>
+  <circle cx="56" cy="22" r="6" fill="#FFBD2E"/>
+  <circle cx="78" cy="22" r="6" fill="#27C93F"/>
+  <text x="600" y="27" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="13" fill="#6f6f85">techStack.json — sudeep-patali</text>
+
+  <!-- top accent line, animated sweep -->
+  <rect x="0" y="0" width="1200" height="3" fill="url(#tcGlow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- code body -->
+  <g font-family="'JetBrains Mono', monospace" font-size="16">
+    <!-- line numbers -->
+    <g fill="#3b3b4f" font-size="14">
+      <text x="30" y="90">1</text><text x="30" y="118">2</text><text x="30" y="146">3</text>
+      <text x="30" y="174">4</text><text x="30" y="202">5</text><text x="30" y="230">6</text>
+      <text x="30" y="258">7</text><text x="30" y="286">8</text><text x="30" y="314">9</text>
+      <text x="30" y="342">10</text><text x="30" y="370">11</text><text x="30" y="398">12</text>
+      <text x="30" y="426">13</text>
+    </g>
+
+    <g fill="#c9c9de">
+      <text x="70" y="90"><tspan fill="#8B5CF6">const</tspan> <tspan fill="#22D3EE">sudeep</tspan> = {</text>
+      <text x="70" y="118">  <tspan fill="#FFB020">role</tspan>: <tspan fill="#34D399">"Full-Stack Developer"</tspan>,</text>
+      <text x="70" y="146">  <tspan fill="#FFB020">languages</tspan>: [<tspan fill="#34D399">"Java"</tspan>, <tspan fill="#34D399">"JavaScript"</tspan>, <tspan fill="#34D399">"TypeScript"</tspan>, <tspan fill="#34D399">"Python"</tspan>, <tspan fill="#34D399">"SQL"</tspan>],</text>
+      <text x="70" y="174">  <tspan fill="#FFB020">frontend</tspan>: [<tspan fill="#34D399">"React"</tspan>, <tspan fill="#34D399">"Tailwind"</tspan>, <tspan fill="#34D399">"Vite"</tspan>],</text>
+      <text x="70" y="202">  <tspan fill="#FFB020">backend</tspan>: [<tspan fill="#34D399">"Node.js"</tspan>, <tspan fill="#34D399">"Express"</tspan>, <tspan fill="#34D399">"REST APIs"</tspan>],</text>
+      <text x="70" y="230">  <tspan fill="#FFB020">databases</tspan>: [<tspan fill="#34D399">"MySQL"</tspan>, <tspan fill="#34D399">"MongoDB"</tspan>, <tspan fill="#34D399">"PostgreSQL"</tspan>],</text>
+      <text x="70" y="258">  <tspan fill="#FFB020">ai</tspan>: [<tspan fill="#34D399">"TensorFlow"</tspan>, <tspan fill="#34D399">"Keras"</tspan>, <tspan fill="#34D399">"Prompt Engineering"</tspan>, <tspan fill="#34D399">"Groq / Llama 3.1"</tspan>],</text>
+      <text x="70" y="286">  <tspan fill="#FFB020">cloud</tspan>: [<tspan fill="#34D399">"Google Cloud Platform"</tspan>],</text>
+      <text x="70" y="314">  <tspan fill="#FFB020">tools</tspan>: [<tspan fill="#34D399">"Git"</tspan>, <tspan fill="#34D399">"GitHub Copilot"</tspan>, <tspan fill="#34D399">"Claude"</tspan>, <tspan fill="#34D399">"Lovable"</tspan>],</text>
+      <text x="70" y="342">  <tspan fill="#FFB020">education</tspan>: <tspan fill="#34D399">"B.E. CSE · CGPA 9.44"</tspan>,</text>
+      <text x="70" y="370">  <tspan fill="#FFB020">currentlyBuilding</tspan>: <tspan fill="#34D399">"CRC-ID — CNN cancer classifier"</tspan>,</text>
+      <text x="70" y="398">  <tspan fill="#FFB020">openTo</tspan>: <tspan fill="#34D399">"Internships · Full-time · Collabs"</tspan>,</text>
+      <text x="70" y="426">};</text>
+    </g>
+
+    <!-- blinking cursor -->
+    <rect x="97" y="411" width="9" height="16" fill="#22D3EE">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="0" y="456" width="1200" height="3" fill="url(#tcGlow)">
+    <animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/>
+  </rect>
+</svg>

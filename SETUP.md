@@ -44,7 +44,17 @@ Easiest way: on the repo page, click **Add file → Upload files**, drag the who
 
 ## 4. Fix the project links
 The README links to `github.com/sudeep-patali/AIVA`, `.../NodeX`, and `.../CRC-ID`. Rename your actual
-repos to match (or edit the links in README.md) so the stars/last-commit badges resolve correctly.
+repos to match (or edit the links in README.md) so "View Code" opens the right place.
+
+The project cards now use static "View Code" / "Status" badges instead of live star/last-commit counters —
+those broke earlier because the repos don't exist under your account yet ("repo not found"). Once you've
+created/renamed the real repos, you can swap in live badges again, e.g.:
+`https://img.shields.io/github/stars/sudeep-patali/AIVA?style=flat-square&color=FFB020&labelColor=0a0813`
+
+## 4b. New: animated terminal tech-stack window
+`assets/terminal-code.svg` replaces the plain badge wall with a self-contained animated "code editor"
+showing your stack as JS, with a blinking cursor and drifting background particles — no external service,
+so it can't go down or show errors.
 
 ## 5. Double-check personal info
 Everything is pulled from your resume — verify before publishing:
